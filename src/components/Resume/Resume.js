@@ -80,7 +80,7 @@ const Resume = forwardRef((props, ref) => {
               )}
               {item.location ? (
                 <p className={styles.date}>
-                  <MapPin />  {item.location}
+                  <MapPin /> {item.location}
                 </p>
               ) : (
                 <span />
